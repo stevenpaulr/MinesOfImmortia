@@ -1,0 +1,75 @@
+
+Todo:
+  ☐ Finish Writing the Story
+  ☐ Persistent info for continuing or restarting
+  ☐ Options for sound
+  ☐ Consider more sounds
+  ☐ Credits Screen
+  ✔ Put text boxes in their own UI Panel (maybe) @done(19-04-18 09:03)
+  ✔ Randomize Damage @done(19-03-19 10:11)
+  ☐ fix dice
+
+  ☐ request more art  
+
+  UI Work:
+    ☐ Main Menu
+    ☐ Background
+    ✔ Better boxes @done(19-04-18 09:03)
+    ☐ Frames for images
+    ✔ Consider fonts @done(19-04-18 09:03)
+
+Room List:
+  Intro:
+  ✔ Bar Scene @done(19-03-18 17:05)
+  ✔ Old Woman asks for help @done(19-03-18 17:05)
+
+  Beginning of Mine:
+  ✔ Outside of the mine @done(19-03-18 17:05)
+  ✔ Elevator shaft @done(19-03-18 17:05)
+  ✔ Goblin Attack @done(19-03-18 17:05)
+  ✔ Bridge in entrance @done(19-03-18 17:05)
+  ✔ Bottom of the pit @done(19-03-18 17:05)
+
+  Big Room 1:
+  ✔ Spider Room @done(19-03-18 17:05)
+  ✔ Cave Troll Room (trolls have rocky protusions) @done(19-03-18 17:05)
+  ☐ *Deep Gnome Room*
+
+  Smaller Tunnel:
+  ✔ Gelatinous Cube @done(19-03-18 17:05)
+  ✔ Arrow Trap @done(19-03-18 17:05)
+
+  Big Room 2:
+  ✔ Cockatrice @done(19-04-18 09:03)
+  ☐ Rust Monster
+  ☐ ??????? (aboleth?)
+
+  Small Side Room:
+  ✔ Mimic @started(19-04-18 09:04) @done(19-04-25 08:58) @lasted(6d23h54m51s)
+  ☐ Deadly Fungus
+  ☐ Birthday (Easter Egg)
+
+  Penultimate Room:
+  ☐ The Penultimate Room @started(19-04-25 08:59)
+
+  Final:
+  ☐ Possibility 1
+  ☐ Possibility 2
+  ☐ Possibility 3
+
+
+
+
+
+
+
+
+Grammer fixes:
+✔ Pulley is misspelled twice in the spider room. (Pully and pullys) @started(19-03-19 08:47) @done(19-03-19 08:47) @lasted(18s)
+✔ The bartender says “I’m sure you’ll just fine” when asked about the mine. @started(19-03-19 08:47) @done(19-03-19 08:47) @lasted(59s)
+✔ The option to talk to the miner never goes away like the other options. @started(19-03-19 08:48) @done(19-03-19 08:50) @lasted(2m38s)
+✔ Goblins is capitalized after you beat one of them and the other flees. Fightgoblinwizard792 @done(19-03-19 08:51)
+✔ Talktotrolls says “District them!” As an action option @done(19-03-19 08:51)
+✔ Atf792notexhausted seems redundant with the relentless blows. @done(19-03-19 08:55)
+✔ Righttunnel says “You after you walk a ways...” @done(19-03-19 08:56)
+✔ Debl103 “in when” and Bachelor’s is misspelled @done(19-03-19 08:58)
