@@ -369,6 +369,11 @@ public class controllerScript : MonoBehaviour {
 
 			break;
 
+		case "doNothing":
+			//Don't do anything
+			
+			 break;
+
 		default:
 			Debug.Log ("Perform action not found " + action);
 			break;
