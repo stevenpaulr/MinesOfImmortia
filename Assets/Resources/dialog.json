@@ -719,7 +719,7 @@
     "key": "bottomofpit110+"
   },
   {
-    "text": "You have died.\n\nThis happens sometimes. The good news is that you can play the game all over again! Isn't that exciting?!?!\n",
+    "text": "You have reached 0 hit points and you have died.\n\nThis happens sometimes. The good news is that you can play the game all over again! Isn't that exciting?!?!\n",
     "option1Name": "Restart",
     "option1Key": "end",
     "key": "dead"
@@ -857,8 +857,6 @@
     "option1Key": "spiderroom",
     "option2Name": "cavetrolls",
     "option2Key": "cavetrolls",
-    "option3Name": "deepgnomes",
-    "option3Key": "deepgnomes",
     "key": "largecavern1",
     "action": "randomroom"
   },
@@ -1121,8 +1119,6 @@
     "option1Key": "spiderroom",
     "option2Name": "cavetrolls",
     "option2Key": "cavetrolls",
-    "option3Name": "deepgnomes",
-    "option3Key": "deepgnomes",
     "key": "bottomofshaft",
     "action": "randomroom"
   },
@@ -1197,14 +1193,14 @@
     "key": "fightgoblinsfighter10+"
   },
   {
-    "text": "This room is a naturally formed cavern that was once the main extraction chamber for the mine. There are a few broken hand cart on the ground near the central elevator shaft. There are places on the walls and columns where it is clear minerals were removed via pick-axe.\n\nAlso, everything is covered in spider webs.\n",
+    "text": "This room is a naturally formed cavern that was once the main extraction chamber for the mine. There are a few broken hand carts on the ground near the central elevator shaft. There are places on the walls and columns where it is clear minerals were removed via pick-axe.\n\nAlso, everything is covered in spider webs.\n",
     "option1Name": "Continue",
     "option1Key": "spiderroom2",
     "key": "spiderroom",
     "action": "clear"
   },
   {
-    "text": "This room is a naturally formed cavern that was once the main extraction chamber for the mine. There are a few smashed hand cart on the ground near the central elevator shaft. There are places on the walls and columns where it is clear minerals were removed via pick-axe.\n\nYou also see some large figures on the far side of the room, but you can't see them well in the torch light.\n",
+    "text": "This room is a naturally formed cavern that was once the main extraction chamber for the mine. There are a few smashed hand carts on the ground near the central elevator shaft. There are places on the walls and columns where it is clear minerals were removed via pick-axe.\n\nYou also see some large figures on the far side of the room, but you can't see them well in the torch light.\n",
     "option1Name": "Continue",
     "option1Key": "cavetrolls2",
     "key": "cavetrolls",
@@ -1232,7 +1228,7 @@
     "key": "spiderroom3"
   },
   {
-    "text": "",
+    "text": "You see before you, the biggest, meanest, fuzziest, giantest, hugest (did I mention that it's really big?) spider that you've ever seen.\n\nNow, what do you do?",
     "option1Name": "Yeah, I should run.",
     "option1Key": "spiderrunaway",
     "option2Name": "There's a torch in my hand...",
@@ -1472,7 +1468,7 @@
     "key": "runfromthegiantspider6-"
   },
   {
-    "text": "You make it to the far end of the cavern where a tunnel leads futher down. You are relieved that the tunnel is too narrow for the spider to fit in. \n\nRelieved that the ordeal is over, you lean against the wall and catch your breath.\n",
+    "text": "You make it to the far end of the cavern where a tunnel leads futher down. Luckily, the tunnel is too narrow for the spider to fit in. \n\nRelieved that the ordeal is over, you lean against the wall and catch your breath.\n",
     "option1Name": "Continue",
     "option1Key": "tunnel2",
     "key": "runfromthegiantspider10+"
@@ -2367,7 +2363,7 @@
     "amount": "1"
   },
   {
-    "text": "You pull your hand away from the beast. Now you that you have learned the hard way not to touch it, you need to figure out a way to get past the Gelatinous Cube.\n",
+    "text": "You pull your hand away from the beast. Now that you have learned the hard way not to touch it, you need to figure out a way to get past the Gelatinous Cube.\n",
     "option1Name": "Continue",
     "option1Key": "gcHowToGetPast",
     "key": "gcIS792"
@@ -2711,8 +2707,8 @@
     "action": "clear"
   },
   {
-    "text": "The rust monster will be written at a later time.\nPlease go to the Cockatrice room instead.\n",
-    "option1Name": "cockatrice",
+    "text": "You just found the room that will be written about a rust monster. It's going to be the best room. It'll have lots of witty writing and you'll enjoy a mirthful chuckle. \n\nBut, since it's not written, go to the alternate room instead.\n",
+    "option1Name": "This way >",
     "option1Key": "cockatrice",
     "key": "rustmonster",
     "action": "clear"
@@ -2941,7 +2937,7 @@
   },
   {
     "text": "You stand up and begin to sing the best lullaby song that you can think of...\n\nwhich is Happy Birthday...\n\nYour adventuring lifestlye is not very conducive to child rearing, and it shows.\n\nThe Cockatrice looks at you quizzically.\n",
-    "option1Name": "Contine",
+    "option1Name": "Continue",
     "option1Key": "cocohidingfound",
     "key": "css6-"
   },
@@ -3155,7 +3151,8 @@
     "option1Key": "leftroom",
     "option2Name": "The one on the Right",
     "option2Key": "rightroom",
-    "key": "tunnel3"
+    "key": "tunnel3",
+    "action": "clear"
   },
   {
     "text": "You look at the door to the room on the right. There's a painting on the door of a stick man wearing a yellow helmet and vest. He's holding up a sign that says \"Under Construction\".\n\nYou try the door handle, but it won't open. You decide that maybe you should go to the left room instead.\n",
@@ -3172,7 +3169,7 @@
     "key": "leftroom"
   },
   {
-    "text": "The treasure chest is made of a high quality wood. Even though it's probably very old, it has held up well over these years. The hignes and lock are all made of brass and are orantely decorated as is the rest of the chest.\n\nThis is the sort of thing that you might find in a castle, not in some dingy underground ruins.\n",
+    "text": "The treasure chest is made of a high quality wood. Even though it's probably very old, it has held up well over these years. The hinges and lock are all made of brass and are orantely decorated as is the rest of the chest.\n\nThis is the sort of thing that you might find in a castle, not in some dingy underground ruins.\n",
     "option1Name": "Continue",
     "option1Key": "checkChestClass",
     "key": "chest1"
@@ -3214,9 +3211,9 @@
     "key": "novial"
   },
   {
-    "text": "[[exitroom]]",
-    "option1Name": "exitroom",
-    "option1Key": "exitroom",
+    "text": "[[doneshelves]]",
+    "option1Name": "doneshelves",
+    "option1Key": "doneshelves",
     "option2Name": "tochestornottochest2",
     "option2Key": "tochestornottochest2",
     "key": "tochestornottochest",
@@ -3410,7 +3407,7 @@
     "amount": "2"
   },
   {
-    "text": "You twist yourself in a way that the mimic's wrist isn't meant to bend. It screeches in pain as it legs go and you roll away.\n\nWell done.",
+    "text": "You twist yourself in a way that the mimic's wrist isn't meant to bend. It screeches in pain as it lets go and you roll away.\n\nWell done.",
     "option1Name": "Continue",
     "option1Key": "brokefree",
     "key": "smbfr10+"
@@ -3684,7 +3681,7 @@
     "key": "ffm79"
   },
   {
-    "text": "The mimic sits in front of you opening and closing it's mouth. You wait for the right moment, and stab it right in the fleshy bits on the inside.\n\nIt lets out a terrible squeal, then goes still. \n\nYou prod it a couple of times with your word, but it seems dead.\n",
+    "text": "The mimic sits in front of you opening and closing it's mouth. You wait for the right moment, and stab it right in the fleshy bits on the inside.\n\nIt lets out a terrible squeal, then goes still. \n\nYou prod it a couple of times with your sword, but it seems dead.\n",
     "option1Name": "Continue",
     "option1Key": "ffm102",
     "key": "ffm10+"
@@ -3705,16 +3702,17 @@
     "text": "After walking through a twisty maze of corridors, You walk into a large chamber that was once some sort of ceremonial room. There is a dias on the far end of the room with a crumbling stone alter on it. \n\nThere are some faded murals on the wall depicting the ancient god Yhtia.\n",
     "option1Name": "Continue",
     "option1Key": "penult2",
-    "key": "penult1"
+    "key": "penult1",
+    "action": "clear"
   },
   {
-    "text": "This room is surprisingly well illuminated. There are several torches in holders around the room that are lit. You get the feeling that this room is used frequently. \n\nThere is a door on the right side close to the dais that you suspect leads to somewhere important. There are torches right by that door making it seem more well used. Also, the skeletal guardians are a bit of a dead giveaway.\n",
+    "text": "This room is surprisingly well illuminated. There are several torches in holders around the room that are lit. You get the feeling that this room is used frequently. \n\nThere is a door on the right side close to the dais that you suspect leads to somewhere important. There are torches right by that door making it seem more well used. Also, the animated skeletal guardians are a bit of a dead giveaway.\n",
     "option1Name": "I see what you did there.",
     "option1Key": "penult3",
     "key": "penult2"
   },
   {
-    "text": "Heh, dead giveaway, skeletons, I'm so funny.\n\nAnyway, you figure that you're pretty close to the end boss. You just need to figure out a way past the skeletons. There are 3 of them, and only one of you. They don't look very friendly. \n\nAlthough, the lack of any sort of facial muscles makes it difficult for skeletons to give any expressions at all, so who's to say if they're friendly or not?\n",
+    "text": "Heh, dead giveaway, skeletons, I'm so funny.\n\nAnyway, you figure that you're pretty close to the necromancer. Not many other people would use the living dead to guard a door. You just need to figure out a way past the skeletons. There are 3 of them, and only one of you. They don't look very friendly. \n\nAlthough, the lack of any sort of facial muscles makes it difficult for skeletons to give any expressions at all, so who's to say if they're friendly or not?\n",
     "option1Name": "Continue",
     "option1Key": "penult4",
     "key": "penult3"
@@ -3740,7 +3738,7 @@
     "moveStat": "Dexterity"
   },
   {
-    "text": "You boldly walk up to the Skeletons with purpose.\n\nThey turn their heads and watch you with their lifeless eyes as you approach. When youget near, they each draw a sword and get ready to attack you.\n",
+    "text": "You boldly walk up to the Skeletons with purpose.\n\nThey turn their heads and watch you with their lifeless eyes as you approach. When you get near, they each draw a sword and get ready to attack you.\n",
     "option1Name": "Continue",
     "option1Key": "skeleClassSplit",
     "key": "directSkele"
@@ -3760,7 +3758,7 @@
     "key": "sneakSkele79"
   },
   {
-    "text": "You are stealthy like a ninja!\n\nMoving around this room without being seen is super easy for you. THe skeletons might as well not even be animated bones they are so unaware of you.\n",
+    "text": "You are stealthy like a ninja!\n\nMoving around this room without being seen is super easy for you. The skeletons might as well not even be animated bones they are so unaware of you.\n",
     "option1Name": "Continue",
     "option1Key": "sneakSkeleSuccess",
     "key": "sneakSkele10+"
@@ -3802,19 +3800,673 @@
     "moveStat": "Intelligence"
   },
   {
-    "text": "Double-click this passage to edit it.",
-    "key": "skeleFight"
+    "text": "It's a bit of a repetative action, but when the only weapon you have is a sword, all problems look like a sword holder.\n\nYou leap at Skeletons with your sword swinging.",
+    "option1Name": "Roll",
+    "option1Key": "skeleFight6-",
+    "option2Name": "skeleFight79",
+    "option2Key": "skeleFight79",
+    "option3Name": "skeleFight10+",
+    "option3Key": "skeleFight10+",
+    "key": "skeleFight",
+    "moveTriggered": true,
+    "moveStat": "Strength"
   },
   {
-    "text": "Double-click this passage to edit it.",
-    "key": "skelWiz6-"
+    "text": "It's been a really long day. You're pretty tired, so it's understandable that when you try casting such a complicated spell, that you kind of lose control of it. Or actualy, over yourself.\n\nYour hands start spewing forth burning hot rays of light. But you sort of go limp from the expenditure of power. Your arms are like firehoses with no one holding on. Scorching Rays go everywhere in the room. Through sheer luck, you manage to kill one of the Skeletons. You also manage to hit yourself with one doing @X points of damage.\n",
+    "option1Name": "Continue",
+    "option1Key": "2skeletonsleft",
+    "key": "skelWiz6-",
+    "action": "losehp",
+    "amount": "1"
   },
   {
-    "text": "Double-click this passage to edit it.",
+    "text": "The Scorching ray shoot out of your dominant hand is really effecting at turning a skeleton to ash. The one coming from your other hand is also effective at turning things to ash, but you're not effective at aiming with two hands at once. So that ray turns some of the pews and part of the alter to ash instead.\n",
+    "option1Name": "Continue",
+    "option1Key": "2skeletonsleft",
     "key": "skelWiz79"
   },
   {
-    "text": "Double-click this passage to edit it.",
+    "text": "You hold your hands out and blast two of the skeletons with blinding rays that are hot\n    like\n\t   something\n\t      really\n\t\t     really hot. The skeletons blow away in a cloud of ash.\n",
+    "option1Name": "Cool!",
+    "option1Key": "1skeletonleft",
     "key": "skelWiz10+"
+  },
+  {
+    "text": "Since you're done in here, we'll move on.",
+    "option1Name": "Continue",
+    "option1Key": "exitroom",
+    "key": "doneshelves"
+  },
+  {
+    "text": "The two Skeletons that remain move in to attack you. You better dodge.\n",
+    "option1Name": "Roll Dexterity",
+    "option1Key": "dodge2skel6-",
+    "option2Name": "dodge2skel79",
+    "option2Key": "dodge2skel79",
+    "option3Name": "dodge2skel10+",
+    "option3Key": "dodge2skel10+",
+    "key": "2skeletonsleft",
+    "moveTriggered": true,
+    "moveStat": "Dexterity"
+  },
+  {
+    "text": "Seeing it's comrades gone, the one remaining skeleton decides to flee and warn it's master that you are coming.\n\nRoll Dexterity to see if you can stop it.",
+    "option1Name": "Roll",
+    "option1Key": "stopskele6-",
+    "option2Name": "stopskele79",
+    "option2Key": "stopskele79",
+    "option3Name": "stopskele10+",
+    "option3Key": "stopskele10+",
+    "key": "1skeletonleft",
+    "moveTriggered": true,
+    "moveStat": "Dexterity"
+  },
+  {
+    "text": "For being piles of animated bones, these things are remarkably nimble. You sprang forth with a mighty swing hoping to take all three of these skeletons out, but they simply jumped backwards out of the way. Angrily you pressed on to the one on the left. You manage to get your sword stuck in its skull. That one collapeses to the ground, but the effort left you exposed. You lose @X Hit Points as one of the others hits you from behind.\n",
+    "option1Name": "Continue",
+    "option1Key": "2skeletonsleft",
+    "key": "skeleFight6-",
+    "action": "losehp",
+    "amount": "2"
+  },
+  {
+    "text": "You're smart enough not to put yourself right into the middle of the fray. You go to the right of the group, and swing low. You take out the leg of the one on that side. It's having difficulty remaining upright with only one leg. You help it to the ground by following up with a might strike to the skull.\n\nIt clatters to the ground.",
+    "option1Name": "Continue",
+    "option1Key": "2skeletonsleft",
+    "key": "skeleFight79"
+  },
+  {
+    "text": "You move like the wind. First you strike at the one on the right with a precision blow to its spine causing it to collapse to the ground. Then you bounce back with a mighty downward swing cleaving the skull of the middle one in half. It also crumbles into a pile of bones.",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "skeleFight10+"
+  },
+  {
+    "text": "You feel the point ends of their swords. They're pretty old and rusty looking swords. If you survive this, you might want to go get a tetanus shot.\n\nYou lose @X Hit Points.",
+    "option1Name": "Continue",
+    "option1Key": "attack2skel",
+    "key": "dodge2skel6-",
+    "action": "losehp",
+    "amount": "2"
+  },
+  {
+    "text": "Both Skeletons swing at you at the same time. You manage to dodge one of them with no problems. The fact that you are outnumbered works against you though. The other managed to inflict a minor flesh wound. You lose @X Hit Points.",
+    "option1Name": "Continue",
+    "option1Key": "attack2skel",
+    "key": "dodge2skel79",
+    "action": "losehp",
+    "amount": "1"
+  },
+  {
+    "text": "The two Skeletons come in swinging their big rusty swords. You easily step out of the way of the two attacks. The skeletons may be big, but they're are very predictable in their strategy.",
+    "option1Name": "Continue",
+    "option1Key": "attack2skel",
+    "key": "dodge2skel10+"
+  },
+  {
+    "text": "[[a2sWiz]]",
+    "option1Name": "a2sWiz",
+    "option1Key": "a2sWiz",
+    "option2Name": "a2sFight",
+    "option2Key": "a2sFight",
+    "key": "attack2skel",
+    "action": "checkClass"
+  },
+  {
+    "text": "In the middle of the fight you don't really have time to prepare any sort of complex spell. You settle for a simple blast of pure magic. It's inelegant, but it often gets the job done.",
+    "option1Name": "Roll Intelligence",
+    "option1Key": "a2sWiz6-",
+    "option2Name": "a2sWiz79",
+    "option2Key": "a2sWiz79",
+    "option3Name": "a2sWiz10+",
+    "option3Key": "a2sWiz10+",
+    "key": "a2sWiz",
+    "moveTriggered": true,
+    "moveStat": "Intelligence"
+  },
+  {
+    "text": "You keep on hacking and slashing at the Skeletons.\nYou know what that means.",
+    "option1Name": "Roll Strength",
+    "option1Key": "a2sFight6-",
+    "option2Name": "a2sFight79",
+    "option2Key": "a2sFight79",
+    "option3Name": "a2sFight10+",
+    "option3Key": "a2sFight10+",
+    "key": "a2sFight",
+    "moveTriggered": true,
+    "moveStat": "Strength"
+  },
+  {
+    "text": "You dance and parry with the Skeletons waiting for the right moment. When the opportunity to single one out presents itself you attack.\n\nYou realize that you are too close to make a normal sword swinging attack. You decide the next best option is to headbutt it.\n\nYou have a very thick skull and you smash it. It also had a very thick skull. Your head hurts, and you lose @X hit points.",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "a2sFight6-",
+    "action": "losehp",
+    "amount": "1"
+  },
+  {
+    "text": "You dance and parry with the Skeletons waiting for the right moment. When the opportunity to single one out presents it's self you attack.\n\nYour attack, and manage to take one out. But you overextend yourself leaving yourself open for retaliation.",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "a2sFight79"
+  },
+  {
+    "text": "You dance and parry with the Skeletons waiting for the right moment. When the opportunity to single one out presents it's self you attack.\n\nWith a mighty blow you smash another of the skeletons to tiny bits.\n\nThe other one seems a little taken aback with your mighty attack. Take +1 forward.",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "a2sFight10+",
+    "action": "+1Forward"
+  },
+  {
+    "text": "You get back away from the Skeleton's swords and wait for the right moment. When one gets close enough you hit it with the blast.\n\nUnfortunately, this is a very short ranged attack. You blast the skeleton apart, but the pieces go everywhere and you lose @X hit points from the shrapnel.",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "a2sWiz6-",
+    "action": "losehp",
+    "amount": "1"
+  },
+  {
+    "text": "You get back away from the Skeleton's swords and wait for the right moment. When one gets close enough you hit it with the blast.\n\nYou manage to take out that skeleton, but the concentration made you lose track of the other one leaving you exposed to an attack.",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "a2sWiz79"
+  },
+  {
+    "text": "You get back away from the Skeleton's swords and wait for the right moment. When one gets close enough you hit it with the blast.\n\nIt shatters into 1000 pieces. The other one is somewhat taken aback. You get +1 Forward.\n",
+    "option1Name": "Continue",
+    "option1Key": "1skeletonleft",
+    "key": "a2sWiz10+",
+    "action": "+1Forward"
+  },
+  {
+    "text": "You reach out a hand, and grab thin air just as the skeleton ducks back into the doorway that it was guarding.\n\nYou have a pretty bad feeling about that.\n",
+    "option1Name": "Continue",
+    "option1Key": "penultDone",
+    "key": "stopskele6-",
+    "action": "doom",
+    "amount": "3"
+  },
+  {
+    "text": "You reach out and grab the Skeleton by the neck just as it starts to escape. Unfortunately, it's not as well held together as you thought. The head falls off and rolls into the now slightly ajar door that it was guarding.\n\nThe magic that was animating it dissipates, but having a skull roll into your lair is a dead giveaway that something is up.\n",
+    "option1Name": "Continue",
+    "option1Key": "penultDone",
+    "key": "stopskele79",
+    "action": "doom",
+    "amount": "2"
+  },
+  {
+    "text": "Just as the Skeleton tries to get away, you grab it and forcibly throw it back into the room with you. It crashes into the alter and crumbles to pieces.\n",
+    "option1Name": "Continue",
+    "option1Key": "penultDone",
+    "key": "stopskele10+"
+  },
+  {
+    "text": "Okay, This is it. You're about to enter the lair of a powerful necromancer who wants to overrun the town with a hoard of zombies.\n\nAre you ready?",
+    "option1Name": "Yes!",
+    "option1Key": "yesReady",
+    "option2Name": "No..",
+    "option2Key": "noReady",
+    "key": "penultDone"
+  },
+  {
+    "text": "That's the spirit! You've come so far, now the time of yoru victory is at hand. You just need to open that door and take on whatever you find in there.\n",
+    "option1Name": "Open the Door",
+    "option1Key": "lastSceneChooser",
+    "key": "yesReady"
+  },
+  {
+    "text": "You're not?\nBut we've come all this way.\nWhat more do you want to do?\n\nWell, you know what? You're going in anyway. Live with it.",
+    "option1Name": "Open the door",
+    "option1Key": "lastSceneChooser",
+    "key": "noReady"
+  },
+  {
+    "text": "[[ending1]]",
+    "option1Name": "ending1",
+    "option1Key": "ending1",
+    "option2Name": "lastSceneChooser2",
+    "option2Key": "lastSceneChooser2",
+    "key": "lastSceneChooser",
+    "action": "checkDoom",
+    "amount": "2"
+  },
+  {
+    "text": "You open the door and walk into the room. You find a moderately sized room that has been turned into a workshop. It has all the accoutrements that you would expect in a Necromancer's lab. Miscellaneous skeleton parts piled in a corner, an assortment of vials on shelves full of liquids of all sorts of different colors, a handful of exhumed coffins line one wall.\n",
+    "option1Name": "Continue",
+    "option1Key": "meetKevin",
+    "key": "ending1",
+    "action": "clear"
+  },
+  {
+    "text": "[[ending2]]",
+    "option1Name": "ending2",
+    "option1Key": "ending2",
+    "option2Name": "ending3",
+    "option2Key": "ending3",
+    "key": "lastSceneChooser2",
+    "action": "checkDoom",
+    "amount": "6"
+  },
+  {
+    "text": "You ended in ending 2, which isn't written yet.",
+    "option1Name": "Go to Ending 1",
+    "option1Key": "ending1",
+    "key": "ending2",
+    "action": "clear"
+  },
+  {
+    "text": "You ended in ending 3, which isn't written yet.",
+    "option1Name": "Go to Ending 1",
+    "option1Key": "ending1",
+    "key": "ending3",
+    "action": "clear"
+  },
+  {
+    "text": "Standing in the middle of the room is a guy who looks like a retired school teacher. His hairline goes back far enough that anyone respectable would just shave the rest off. The lines in his face make him look older than he probably actually is.\n\nIt seems that you've interrupted him in the middle of some sort of ritual involving a necklace that is on the table in front of him.\n\nWhat do you want to do?",
+    "option1Name": "Say Hi.",
+    "option1Key": "talkToKevin",
+    "option2Name": "Attack",
+    "option2Key": "justAttack",
+    "key": "meetKevin"
+  },
+  {
+    "text": "Yes, talking to him is probably a reasonable start.\n",
+    "option1Name": "\"Who are are?\"",
+    "option1Key": "TTK2",
+    "key": "talkToKevin"
+  },
+  {
+    "text": "Really?\nYou don't want to know what he's up to?\nIt could be important.",
+    "option1Name": "Okay, I'll talk to him",
+    "option1Key": "talkToKevin",
+    "option2Name": "I see Necromancer, I fight Necromancer",
+    "option2Key": "reallyAttack",
+    "key": "justAttack"
+  },
+  {
+    "text": "Okay, you might have been able to solve all of this without violence, but I guess we'll do it your way. You won't even get the chance to find out that his name is Kevin.\n",
+    "option1Name": "Darn Right!",
+    "option1Key": "fightKevin",
+    "key": "reallyAttack"
+  },
+  {
+    "text": "[[aKJAlive]]",
+    "option1Name": "aKJAlive",
+    "option1Key": "aKJAlive",
+    "option2Name": "aKJDead",
+    "option2Key": "aKJDead",
+    "key": "askKevinJimmy",
+    "action": "checkHistory",
+    "attribute": "cocoFoodalive"
+  },
+  {
+    "text": "\"I'm glad you asked. I've been dying to tell someone all of my nefarious plans.\"\n\nHe continues, \"Soon, this necklace will become my Phylactery as I obtain awesome power as a LICH!\"\n",
+    "option1Name": "That's really interesting, tell me more",
+    "option1Key": "kevinLichTalk",
+    "option2Name": "Talk about something else",
+    "option2Key": "TTK2List",
+    "key": "KevinUpto"
+  },
+  {
+    "text": "Kevin replies \"It's quiet, I don't have nosey neighbors and the rent is cheap. You're the first uninvited guest I've had.\" With that he gives you the stink eye.\n",
+    "option1Name": "Continue",
+    "option1Key": "TTK2List",
+    "key": "kevinDungeon"
+  },
+  {
+    "text": "\"I'm Kevin, lord of the undead and arbiter of the apocalypse!\" He says while looking a bit perturbed that you are here. What do you say to him?\n",
+    "option1Name": "Ask about Jimmy",
+    "option1Key": "askKevinJimmy",
+    "option2Name": "Whatchya up to?",
+    "option2Key": "KevinUpto",
+    "option3Name": "Nice place you've got here.",
+    "option3Key": "kevinDungeon",
+    "key": "TTK2"
+  },
+  {
+    "text": "What else do you want to say?\n",
+    "option1Name": "Ask about Jimmy",
+    "option1Key": "askKevinJimmy",
+    "option2Name": "Whatchya up to?",
+    "option2Key": "KevinUpto",
+    "option3Name": "Nice place you've got here.",
+    "option3Key": "kevinDungeon",
+    "option4Name": "Done talking, time to fight",
+    "option4Key": "fightKevin",
+    "key": "TTK2List",
+    "persistant": true
+  },
+  {
+    "text": "[[fightKevinWiz]]",
+    "option1Name": "fightKevinWiz",
+    "option1Key": "fightKevinWiz",
+    "option2Name": "fightKevinFight",
+    "option2Key": "fightKevinFight",
+    "key": "fightKevin",
+    "action": "checkClass"
+  },
+  {
+    "text": "You say \"I talked to Jimmy, it seems you left him for dead. That was kind of jerk move.\"\n\nKevin looks at you. \"That kid was useless. Just a wanna be Goth kid, he had no  business with a real necromancer.\"\n",
+    "option1Name": "Continue",
+    "option1Key": "TTK2List",
+    "key": "aKJAlive"
+  },
+  {
+    "text": "You say \"I found Jimmy's corpse. I imagine that you are responsible for that.\"\n\nKevin looks at you. \"That kid was useless. He kept making mistakes so I rid myself of him.\"\n",
+    "option1Name": "Continue",
+    "option1Key": "TTK2List",
+    "key": "aKJDead"
+  },
+  {
+    "text": "He seems genuinely over eager to talk to someone about his hobbies.\n\n\"Well, right now I'm just preparing this necklace as a vessel. Once complete, I will transfer my soul into it via a ritual, and then I will be immortal. No longer will I fear the cold grip of death.\"\n",
+    "option1Name": "Talk about something else",
+    "option1Key": "TTK2List",
+    "option2Name": "Try to talk him out of it",
+    "option2Key": "|talkKevinOutofit",
+    "key": "kevinLichTalk"
+  },
+  {
+    "text": "Okay, so you want to talk him out of turning himself into a lich.\n\nGo ahead an roll your Charisma for me.",
+    "option1Name": "Roll",
+    "option1Key": "tkooi6-",
+    "option2Name": "tk00i79",
+    "option2Key": "tk00i79",
+    "option3Name": "tkooi10+",
+    "option3Key": "tkooi10+",
+    "key": "talkKevinOutofit",
+    "moveTriggered": true,
+    "moveStat": "Charisma"
+  },
+  {
+    "text": "\"Have you considered that being a lich would make every adventurer in the area come hunt you?\" You ask.\n\n\"Yes, and I have a plan for those adventurers, including you.\"\n",
+    "option1Name": "Well crap.",
+    "option1Key": "fightKevin",
+    "key": "tkooi6-"
+  },
+  {
+    "text": "\"You know, I heard lichdom is bad for your health.\" You say to Kevin.\n\n\"Yeah, that's part of the whole being undead forever thing.\" Kevin replies. \n\nWell that didn't work.\n",
+    "option1Name": "Talk about something else.",
+    "option1Key": "TTK2List",
+    "key": "tk00i79"
+  },
+  {
+    "text": "You say \"Well, you know, my uncle Lawrence on my mother's side was a lich.\" \n\"Smelled awful at family reunions.\"\n\"He said that if he could take it back he would. It seems that outliving everyone that he loved just wasn't all that it was cracked up to be. Plus, you know, the flesh decays, and eventually he was suffering from some pretty bad back pain. He eventually dispelled his own phylactery just to end it all.\"\n",
+    "option1Name": "Continue",
+    "option1Key": "tkooiBest2",
+    "key": "tkooi10+"
+  },
+  {
+    "text": "\"Really?\" Kevin asks?\n\nIt seems to be working. Roll Charisma again to keep trying to talk him out of it.\n",
+    "option1Name": "Roll",
+    "option1Key": "tkooiBest6-",
+    "option2Name": "tkooiBest6-",
+    "option2Key": "tkooiBest6-",
+    "option3Name": "tkooiBest10+",
+    "option3Key": "tkooiBest10+",
+    "key": "tkooiBest2",
+    "moveTriggered": true,
+    "moveStat": "Charisma"
+  },
+  {
+    "text": "\"Yeah,\" you say. \"I still keep uncle Willy's Phyla...\"\n\n\"Wait a minute!\" Kevin interrupts you. \"You said his name was Lawrence!\"\n",
+    "option1Name": "Oops!",
+    "option1Key": "caughtinweboflies",
+    "key": "tkooiBest6-"
+  },
+  {
+    "text": "[[tkooiBest10Bottle]]",
+    "option1Name": "tkooiBest10Bottle",
+    "option1Key": "tkooiBest10Bottle",
+    "option2Name": "tkooiBest10NoBottle",
+    "option2Key": "tkooiBest10NoBottle",
+    "key": "tkooiBest10+",
+    "action": "checkAttribute",
+    "attribute": "HasVial"
+  },
+  {
+    "text": "\"Yeah!\" You say. \"I still carry his Phylactery around to remember him by.\"\n\nYou reach into your pocket and pull out the vial with the green liquid in it. \n",
+    "option1Name": "Continue",
+    "option1Key": "tkooiBest10Bottle2",
+    "key": "tkooiBest10Bottle"
+  },
+  {
+    "text": "[[tkooiBest10Coin]]",
+    "option1Name": "tkooiBest10Coin",
+    "option1Key": "tkooiBest10Coin",
+    "option2Name": "tkooiBest10NoCoin",
+    "option2Key": "tkooiBest10NoCoin",
+    "key": "tkooiBest10NoBottle",
+    "action": "checkAttribute",
+    "attribute": "Cursed-Coin"
+  },
+  {
+    "text": "Kevin looks at you a bit slack jawed.\n\n\"Wow, that's quite the story.\" \n\"I guess maybe I should rethink this.\"",
+    "option1Name": "Continue",
+    "option1Key": "talkedhimoutofit",
+    "key": "tkooiBest10Bottle2"
+  },
+  {
+    "text": "You put your arm around Kevin and guide him out of his lair.\n\nYou take him back to the village and you help him find a more productive use for his talents and time.\n",
+    "option1Name": "Continue",
+    "option1Key": "jimmyEnding",
+    "key": "talkedhimoutofit"
+  },
+  {
+    "text": "[[endingJimmyAlive]]",
+    "option1Name": "endingJimmyAlive",
+    "option1Key": "endingJimmyAlive",
+    "option2Name": "endingJimmyDead",
+    "option2Key": "endingJimmyDead",
+    "key": "jimmyEnding",
+    "action": "checkHistory",
+    "attribute": "cocoFoodalive"
+  },
+  {
+    "text": "You also got Jimmy home safely to his Mom. He has definitely learned his lesson that Necromancers are not nice people. He turns his life around and eventually enters the priesthood where he can serve life.\n\nCongratulations! You have reached the end of the adventure. Look for more Interactive Fiction games by Radical Bomb Games.\n",
+    "option1Name": "Play again?",
+    "option1Key": "end",
+    "key": "endingJimmyAlive"
+  },
+  {
+    "text": "You also find Jimmy's mom, and tell her the unfortunate news of his fate. There is a lot of crying. You send flowers to the funeral because you are a good person.\n\nYou have reached the end of the adventure. Look for more Interactive Fiction games by Radical Bomb Games.\n",
+    "option1Name": "Play again?",
+    "option1Key": "end",
+    "key": "endingJimmyDead"
+  },
+  {
+    "text": "\"Yeah!\" You say. \"I still carry his Phylactery around to remember him by.\"\n\nYou reach into your pocket and pull out the coin that you got from the guy in the bar that you tried to kill with Power Word Death.\n",
+    "option1Name": "Continue",
+    "option1Key": "tkooiBest10Coin2",
+    "key": "tkooiBest10Coin"
+  },
+  {
+    "text": "[[tkooiBest10dagger]]",
+    "option1Name": "tkooiBest10dagger",
+    "option1Key": "tkooiBest10dagger",
+    "option2Name": "tkooiBest10Nothing",
+    "option2Key": "tkooiBest10Nothing",
+    "key": "tkooiBest10NoCoin",
+    "action": "checkAttribute",
+    "attribute": "Enchanted-Dagger"
+  },
+  {
+    "text": "Kevin looks at you a bit slack jawed as he recognizes the power emanating from the coin.\n\n\"Wow, that's quite the story.\" \n\"I guess maybe I should rethink this.\"",
+    "option1Name": "Continue",
+    "option1Key": "talkedhimoutofit",
+    "key": "tkooiBest10Coin2"
+  },
+  {
+    "text": "\"Yeah!\" You say. \"I still carry his Phylactery around to remember him by.\"\n\nYou reach into your pocket and pull out the Enchanted Dagger that you found earlier.\n",
+    "option1Name": "Continue",
+    "option1Key": "tkooiBest10Dagger2",
+    "key": "tkooiBest10dagger"
+  },
+  {
+    "text": "\"Yeah!\" You say. \"I keep his Phylactery on a shelf above my fireplace to remember him by.\n",
+    "option1Name": "Continue",
+    "option1Key": "tkooiBest10nothing2",
+    "key": "tkooiBest10Nothing"
+  },
+  {
+    "text": "Kevin looks at you a bit slack jawed as he recognizes the power emanating from the dagger.\n\n\"Wow, that's quite the story.\" \n\"I guess maybe I should rethink this.\"",
+    "option1Name": "Continue",
+    "option1Key": "talkedhimoutofit",
+    "key": "tkooiBest10Dagger2"
+  },
+  {
+    "text": "Kevin looks at you a bit slack jawed.\n\n\"Wow, that's quite the story.\" \n\"I guess maybe I should rethink this.\"",
+    "option1Name": "Continue",
+    "option1Key": "talkedhimoutofit",
+    "key": "tkooiBest10nothing2"
+  },
+  {
+    "text": "You quickly try to cover. \"Yeah, my uncle Willy on my Father's side was also a li...\"\n\nYou can see that Kevin isn't buying it.\n",
+    "option1Name": "Nevermind, I'll just fight him",
+    "option1Key": "fightKevin",
+    "key": "caughtinweboflies"
+  },
+  {
+    "text": "Alright, here it is, the battle of the year. Wizard vs Necromancer.\n\nThe tension in the room is thick as you stare each other down.\n\nHe starts chanting to cast something. You try to cast Dispell Magic. ",
+    "option1Name": "Roll Intelligence",
+    "option1Key": "dispell6-",
+    "option2Name": "dispell79",
+    "option2Key": "dispell79",
+    "option3Name": "dispell10+",
+    "option3Key": "dispell10+",
+    "key": "fightKevinWiz",
+    "moveTriggered": true,
+    "moveStat": "Intelligence"
+  },
+  {
+    "text": "Double-click this passage to edit it.",
+    "key": "fightKevinFight"
+  },
+  {
+    "text": "Before you are able to get the Dispell cast, Kevin's hand points at you and he casts Ray of Enfeeblement. A coruscating ray of energy shoots out and hits you.\n\nRoll Constitution to save",
+    "option1Name": "Roll",
+    "option1Key": "enfeeblement6-",
+    "option2Name": "enfeeblement79",
+    "option2Key": "enfeeblement79",
+    "option3Name": "enfeeeblement10+",
+    "option3Key": "enfeeeblement10+",
+    "key": "dispell6-",
+    "moveTriggered": true,
+    "moveStat": "Constitution"
+  },
+  {
+    "text": "You don't quite get the dispell cast in time, Kevin's hand points at you and he casts Ray of Enfeeblement. A coruscating ray of energy shoots out and hits you.\n\nLuckily, your dispell is cast moments after he hits you with the ray and you are able to end it prematurely. The ray made you feel a bit tired is all.\n",
+    "option1Name": "Continue",
+    "option1Key": "fkcast",
+    "key": "dispell79"
+  },
+  {
+    "text": "You manage to dispell his spell before he is able to even get it cast. He must not have been in many wizard battle before as he seems a bit dumbstruck. You get +1 Foward to casting a spell.\n",
+    "option1Name": "Continue",
+    "option1Key": "fkcast",
+    "key": "dispell10+",
+    "action": "+1Forward"
+  },
+  {
+    "text": "Now it's your turn to cast something. Since this guy has been sitting in a dark underground lair for possibly quite some time, you decide that hitting him with a sunbeam will be quite effective.\n",
+    "option1Name": "Roll Intelligence",
+    "option1Key": "sunbeam6-",
+    "option2Name": "sunbeam79",
+    "option2Key": "sunbeam79",
+    "option3Name": "sunbeam10+",
+    "option3Key": "sunbeam10+",
+    "key": "fkcast",
+    "moveTriggered": true,
+    "moveStat": "Intelligence"
+  },
+  {
+    "text": "The ray saps your energy, and you fall to the ground. You manage to hit your head on the corder of a table on your way down, and you lose @X hit points.\n",
+    "option1Name": "Continue",
+    "option1Key": "enfeebled",
+    "key": "enfeeblement6-",
+    "action": "losehp",
+    "amount": "1"
+  },
+  {
+    "text": "You feel yourself weaken a bit, but you manage to stay upright. You take -1 forward to your next roll.\n",
+    "option1Name": "Continue",
+    "option1Key": "fkcast",
+    "key": "enfeeblement79",
+    "action": "-1Forward"
+  },
+  {
+    "text": "The spell has no effect on you.\n",
+    "option1Name": "Continue",
+    "option1Key": "fkcast",
+    "key": "enfeeeblement10+"
+  },
+  {
+    "text": "Kevin goes back to working on his ritual giving you little mind. You manage to climb back to your feet and retaliate.\n",
+    "option1Name": "Continue",
+    "option1Key": "fkcast",
+    "key": "enfeebled"
+  },
+  {
+    "text": "You try to bring a beam of sunlight into a underground temple that is hundreds of feet below ground. The attempt tears at the fabric of reality. You suddenly get a massive headache and fall to the ground. You lose @X Hit Points.\n",
+    "option1Name": "Continue",
+    "option1Key": "kevinNOTontheropes",
+    "key": "sunbeam6-",
+    "action": "losehp",
+    "amount": "1"
+  },
+  {
+    "text": "A pillar of light engulfs Kevin. It seems to hurt him, but he quickly waves his hand and dissipates it.\n",
+    "option1Name": "Continue",
+    "option1Key": "kevinNOTontheropes",
+    "key": "sunbeam79"
+  },
+  {
+    "text": "A pillar of light engulfs Kevin. His fair skin starts to blister and burn. It smells a bit like Bacon.\n\nYou have him on the ropes now.\n",
+    "option1Name": "Continue",
+    "option1Key": "kevinontheropes",
+    "key": "sunbeam10+"
+  },
+  {
+    "text": "Double-click this passage to edit it.",
+    "key": "kevinontheropes"
+  },
+  {
+    "text": "Kevin is clearly annoyed with you now. He grabs a dagger from the table in front of him, and jumps on the table, then off it it to attack you.\n\nRoll Dexterity to dodge!",
+    "option1Name": "Roll",
+    "option1Key": "kevinhasaknife6-",
+    "option2Name": "kevinhasaknife79",
+    "option2Key": "kevinhasaknife79",
+    "option3Name": "kevinhasaknife10+",
+    "option3Key": "kevinhasaknife10+",
+    "key": "kevinNOTontheropes",
+    "moveTriggered": true,
+    "moveStat": "Dexterity"
+  },
+  {
+    "text": "Double-click this passage to edit it.",
+    "key": "kevinhasaknife6-"
+  },
+  {
+    "text": "Double-click this passage to edit it.",
+    "key": "kevinhasaknife79"
+  },
+  {
+    "text": "As Kevin sails in the air at you, you step to the side and grab his wrist of the hand holding the dagger. Doing some fancy self defense type moves, you manage to flip him on the ground, take the knife from him, and put it to his neck.\n",
+    "option1Name": "Finish Him",
+    "option1Key": "killKevinDagger",
+    "option2Name": "Spare Him",
+    "option2Key": "spareKevin",
+    "key": "kevinhasaknife10+"
+  },
+  {
+    "text": "You use the dagger to slit Kevin's throat and put and end to all of this.\n\nThe first place you go when you get back to the village is to the Inn to get some rest. In the morning you find the town's guards and tell them the tale of your adventure and the crises that you helped the town avoid. You get a bit of a reward for your trouble.\n",
+    "option1Name": "Continue",
+    "option1Key": "jimmyEnding",
+    "key": "killKevinDagger"
+  },
+  {
+    "text": "With the dagger at his throat, Kevin is more inclined to see the error of his ways.\n\nYou take him back to the village and you help him find a more productive use for his talents and time.\n",
+    "option1Name": "Continue",
+    "option1Key": "jimmyEnding",
+    "key": "spareKevin"
   }
 ]
