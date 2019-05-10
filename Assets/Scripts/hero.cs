@@ -11,6 +11,7 @@ public class hero : MonoBehaviour {
 	[SerializeField] private int doomClock;
 
 	[SerializeField] private bool plus1Forward = false;
+	[SerializeField] private bool minus1Forward = false;
 	
 	// Use this for initialization
 	void Start () {
@@ -189,6 +190,24 @@ public class hero : MonoBehaviour {
 	public bool usePlus1Forward(){
 		if (plus1Forward){
 			plus1Forward = false;
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+
+	public bool hasMinus1Forward(){
+		return minus1Forward;
+	}
+
+	public void getMinus1Forward(){
+		minus1Forward = true;
+	}
+
+		public bool useMinus1Forward(){
+		if (minus1Forward){
+			minus1Forward = false;
 			return true;
 		} else {
 			return false;

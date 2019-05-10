@@ -308,6 +308,10 @@ public class controllerScript : MonoBehaviour {
 			theHero.getPlus1Forward();
 			break;
 
+		case "-1Forward":
+			theHero.getMinus1Forward();
+			break;
+
 		case "getPrepared":
 			theHero.addAttribute ("Well-Prepared");
 			break;
@@ -369,10 +373,6 @@ public class controllerScript : MonoBehaviour {
 
 			break;
 
-		case "doNothing":
-			//Don't do anything
-			
-			 break;
 
 		default:
 			Debug.Log ("Perform action not found " + action);
@@ -682,6 +682,9 @@ public class controllerScript : MonoBehaviour {
 		if(theHero.usePlus1Forward()){
 			total = total + 1;
 			dieRollText += rand + " + " + bonus + "(" + theDialogController.moveStat() + ") plus 1 forward from before for a total of "  + total;
+		} else if(theHero.useMinus1Forward()){
+			total = total - 1;
+			dieRollText += rand + " + " + bonus + "(" + theDialogController.moveStat() + ") minus 1 forward from before for a total of "  + total;
 		} else {
 			dieRollText += rand + " + " + bonus + "(" + theDialogController.moveStat() + ") for a total of "  + total;
 		}
