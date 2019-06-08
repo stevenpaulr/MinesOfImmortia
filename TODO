@@ -13,10 +13,11 @@ Todo:
 
   UI Work:
     ☐ Main Menu
-    ☐ Background
+    ✔ Background @done(19-06-03 11:40)
     ✔ Better boxes @done(19-04-18 09:03)
     ☐ Frames for images
     ✔ Consider fonts @done(19-04-18 09:03)
+    ☐ New buttons
 
 Room List:
   Intro:
@@ -33,7 +34,6 @@ Room List:
   Big Room 1:
   ✔ Spider Room @done(19-03-18 17:05)
   ✔ Cave Troll Room (trolls have rocky protusions) @done(19-03-18 17:05)
-  ☐ *Deep Gnome Room*
 
   Smaller Tunnel:
   ✔ Gelatinous Cube @done(19-03-18 17:05)
@@ -41,8 +41,7 @@ Room List:
 
   Big Room 2:
   ✔ Cockatrice @done(19-04-18 09:03)
-  ☐ Rust Monster
-  ☐ ??????? (aboleth?)
+  ☐ *Deep Gnome Room*
 
   Small Side Room:
   ✔ Mimic @started(19-04-18 09:04) @done(19-04-25 08:58) @lasted(6d23h54m51s)

@@ -27,6 +27,8 @@ public class uiControllerScript : MonoBehaviour {
 	public Sprite hamburgerCloseSprite;
 
 	public hero theHero;
+	public dialogController theDialogController;
+	public controllerScript theGameController;
 
 	public Animator statsAnimator;
 
@@ -69,6 +71,20 @@ public class uiControllerScript : MonoBehaviour {
 
 		attributesText.text = theHero.getAttributes ();
 
+	}
+
+	public void resetGame(){
+
+		menuClick();
+		
+		theDialogController.startOver ();
+		theDialogController.clearHistory ();
+		theHero.resetHero();
+		refresh();
+
+		theGameController.reloadRoom();
+
+		
 	}
 
 }
