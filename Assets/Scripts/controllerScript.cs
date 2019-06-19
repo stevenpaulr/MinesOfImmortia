@@ -136,7 +136,7 @@ public class controllerScript : MonoBehaviour {
 				}
 
 				//if it's above the top of the screen, destroy it and add it to the list of boxes to be removed
-				if (rt.position.y - rt.rect.height > (topOfScreen/2)*scale) {
+				if (rt.position.y - rt.rect.height > (topOfScreen)*scale) {
 					toRemove.Add (thisTextBox);
 					Destroy (thisTextBox);
 				}

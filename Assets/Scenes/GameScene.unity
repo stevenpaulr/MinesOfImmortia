@@ -6464,7 +6464,7 @@ MonoBehaviour:
   Size: 0.1
   HorizontalSpeed: 0
   VerticalSpeed: 0.01
-  Density: 0.45
+  Density: 1
   Shader: {fileID: 4800000, guid: a6918bba2ff221d40b79f35240a3a8cc, type: 3}
 --- !u!81 &1765433929
 AudioListener:

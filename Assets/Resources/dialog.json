@@ -1,6 +1,6 @@
 [
   {
-    "text": "This is Mines of Immortia, the first in a series of Interactive Fiction games that are Powered by the Apocalypse. This demo will take you through two scenes of the final game. \n\nYou can click the Menu button at any time to enter your email address to keep up with the final release of the game.\n\nAlso, before you begin, if you would use the menu to reset the demo before walking away that would be swell.\n",
+    "text": "This is Mines of Immortia, the first in a series of Interactive Fiction games that are Powered by the Apocalypse. This demo will take you through two scenes to give you a feel of what the final game will be like.\n\nYou can click the Menu button at any time to enter your email address and keep up with the final release of the game.\n\nAlso, if you would kindly use the menu to reset the demo before walking away that would be swell.\n",
     "option1Name": "Begin",
     "option1Key": "starthere2",
     "key": "starthere",
@@ -450,7 +450,8 @@
     "option1Key": "cocoRun",
     "option2Name": "Fight",
     "option2Key": "cocoFight",
-    "key": "cockatrice3"
+    "key": "cockatrice3",
+    "image": "coco"
   },
   {
     "text": "You see a good pile of tables off to one side that would offer temporary protection. Roll Dexterity to see if you make it there.\n",
@@ -822,6 +823,7 @@
     "text": "You are in a tavern after a hard day of adventuring. The place is full of the normal patrons and a healthy amount of travelers who are in town for the local festival.\n",
     "option1Name": "Continue",
     "option1Key": "sitincorner",
-    "key": "starthere2"
+    "key": "starthere2",
+    "action": "clear"
   }
 ]
