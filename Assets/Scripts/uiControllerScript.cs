@@ -10,15 +10,10 @@ public class uiControllerScript : MonoBehaviour {
 	public Canvas myCanvas;
 	public RectTransform statsPanel;
 
-	public Text attributesText;
-	public Text hpText;
-	public Text strengthText;
-	public Text constitutionText;
-	public Text dexterityText;
-	public Text intelligenceText;
-	public Text wisdomText;
-	public Text charismaText;
+	public RectTransform hpPanel;
 
+	public Text hpText;
+	
 
 	public Button menuButton;
 
@@ -35,6 +30,8 @@ public class uiControllerScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
+		hpPanel.GetComponent<CanvasGroup>().alpha = 0;
+
 	}
 	
 	// Update is called once per frame
@@ -58,28 +55,32 @@ public class uiControllerScript : MonoBehaviour {
 	}
 
 
+	public void showHP(){
+		hpPanel.GetComponent<CanvasGroup>().alpha = 1;
+
+	}
+
+	public void hideHP(){
+		hpPanel.GetComponent<CanvasGroup>().alpha = 0;
+
+	}
+
+
 	public void refresh(){
 
-		strengthText.text = theHero.getStat ("Strength").ToString();
-		constitutionText.text = theHero.getStat ("Constitution").ToString();
-		dexterityText.text = theHero.getStat ("Dexterity").ToString();
-		intelligenceText.text = theHero.getStat ("Intelligence").ToString();
-		charismaText.text = theHero.getStat ("Charisma").ToString();
-		wisdomText.text = theHero.getStat ("Wisdom").ToString();
-
 		hpText.text = theHero.getHP().ToString() + "/" + theHero.getmaxHP().ToString();
-
-		attributesText.text = theHero.getAttributes ();
 
 	}
 
 	public void resetGame(){
 
 		menuClick();
-		
+
 		theDialogController.startOver ();
 		theDialogController.clearHistory ();
 		theHero.resetHero();
+		hpPanel.GetComponent<CanvasGroup>().alpha = 0;
+
 		refresh();
 
 		theGameController.reloadRoom();

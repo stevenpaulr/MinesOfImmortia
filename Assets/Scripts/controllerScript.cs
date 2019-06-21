@@ -207,10 +207,12 @@ public class controllerScript : MonoBehaviour {
 		switch (action) {
 		case "imafighter":
 			theHero.setClass ("Fighter");
+			theUIController.showHP();
 			break;
 		
 		case "imawizard":
 			theHero.setClass ("Wizard");
+			theUIController.showHP();
 			break;
 
 		case "losehp":
@@ -758,6 +760,7 @@ public class controllerScript : MonoBehaviour {
 			theDialogController.startOver ();
 			theDialogController.clearHistory ();
 			theHero.resetHero();
+			theUIController.hideHP();
 			theUIController.refresh();
 
 			for (int i = textBoxes.Count - 1; i >= 0; i--) {
