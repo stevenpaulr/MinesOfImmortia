@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 
 [System.Serializable]
@@ -56,6 +58,22 @@ public class dialogController : MonoBehaviour {
 
 	}
 
+	public void loadSave(Save save){
+
+		//clear the  history just in case
+		clearHistory();
+
+		foreach(string dialogEvent in save.dialogHistory){
+			dialogHistory.Add(dialogEvent);
+		}
+
+		//set the random number if it's needed
+		rand = save.dialogRandNum;
+
+		//go to the current room
+		loadRoom(save.currentEventKey);
+
+	}
 
 	public string currentKey(){
 		return currentEvent.key;
@@ -221,6 +239,10 @@ public class dialogController : MonoBehaviour {
 		return false;
 	}
 
+	public List<string> getDialogHistory(){
+		return dialogHistory;
+	}
+
 
 	public bool lastOne(){
 
@@ -287,6 +309,9 @@ public class dialogController : MonoBehaviour {
 		rand = newRand;
 	}
 
+	public int getRand(){
+		return rand;
+	}
 
 	public void weAreDead(){
 		//Someone has informed me that the player is now dead.

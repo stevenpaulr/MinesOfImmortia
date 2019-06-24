@@ -17,6 +17,8 @@ public class uiControllerScript : MonoBehaviour {
 
 	public Button menuButton;
 
+	public Button continueButton;
+
 
 	public Sprite hamburgerOpenSprite;
 	public Sprite hamburgerCloseSprite;
@@ -24,6 +26,7 @@ public class uiControllerScript : MonoBehaviour {
 	public hero theHero;
 	public dialogController theDialogController;
 	public controllerScript theGameController;
+	public saveController theSaveController;
 
 	public Animator statsAnimator;
 
@@ -31,6 +34,18 @@ public class uiControllerScript : MonoBehaviour {
 	void Start () {
 		
 		hpPanel.GetComponent<CanvasGroup>().alpha = 0;
+
+		menuButton.enabled = false;
+
+		if(theSaveController.saveExists() == false){
+			continueButton.enabled = false;
+			continueButton.GetComponent<CanvasGroup> ().alpha = 0.25f;
+
+		} else {
+			continueButton.enabled = true;
+			continueButton.GetComponent<CanvasGroup> ().alpha = 1.0f;
+
+		}
 
 	}
 	
@@ -72,8 +87,12 @@ public class uiControllerScript : MonoBehaviour {
 
 	}
 
+//this will start a new game no matter where we are
 	public void resetGame(){
 
+		menuButton.enabled = true;
+
+		theGameController.gameActive = true;
 		menuClick();
 
 		theDialogController.startOver ();
@@ -85,7 +104,36 @@ public class uiControllerScript : MonoBehaviour {
 
 		theGameController.reloadRoom();
 
-		
+		continueButton.enabled = true;
+
+	}
+
+	public void resumeGame(){
+
+		menuButton.enabled = true;
+
+		menuClick();
+
+		//If the game hasn't started yet, we need to load the save data, then continue
+		if(theGameController.gameActive == false){
+			//Have the dialog controller load the savegame data
+			Debug.Log("Load the save game");
+
+			theSaveController.loadGame();
+
+
+			refresh();
+			//have the game controller reloadRoom
+			theGameController.reloadRoom();
+
+			if(theHero.countAttributes() > 1){ //we have a class and we should show the health
+				showHP();
+			}
+		} else {
+			Debug.Log("game is active, just resuming");
+		} 
+
+		theGameController.gameActive = true;
 	}
 
 }

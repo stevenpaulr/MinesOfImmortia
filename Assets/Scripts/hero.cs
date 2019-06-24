@@ -156,6 +156,9 @@ public class hero : MonoBehaviour {
 		}
 	}
 
+	public int countAttributes(){
+		return attributes.Count;
+	}
 
 	//remove the attribute, or return false
 	public bool removeAttribute(string attributeName){
@@ -176,6 +179,16 @@ public class hero : MonoBehaviour {
 		}
 
 		return attributeList;
+	}
+
+	public List<string> exportAttributes(){
+
+		return attributes;
+	}
+
+	public Dictionary<string,int> exportStats(){
+
+		return stats;
 
 	}
 
@@ -205,7 +218,7 @@ public class hero : MonoBehaviour {
 		minus1Forward = true;
 	}
 
-		public bool useMinus1Forward(){
+	public bool useMinus1Forward(){
 		if (minus1Forward){
 			minus1Forward = false;
 			return true;
@@ -226,4 +239,27 @@ public class hero : MonoBehaviour {
 	public int getDoom(){
 		return doomClock;
 	}
+
+
+	public void loadSave(Save save){
+	
+		//Clear these just in case
+		stats = new Dictionary<string, int> ();
+		attributes = new List<string> ();
+
+		foreach(KeyValuePair<string, int> entry in save.stats){
+			stats[entry.Key] = entry.Value;
+		}
+
+		foreach(string thisattribute in save.attributes){
+			attributes.Add(thisattribute);
+		}
+
+		HP = save.HP;
+		maxHP = save.maxHP;
+		doomClock = save.doomClock;
+		plus1Forward = save.plus1Forward;
+		minus1Forward = save.minus1Forward;
+	}
 }
+

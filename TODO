@@ -1,9 +1,10 @@
 
 Todo:
   ☐ Finish Writing the Story
-  ☐ Persistent info for continuing or restarting
+  ✔ Persistent info for continuing or restarting @done(19-06-24 08:01)
   ☐ Options for sound
-  ☐ Consider more sounds
+  ☐ Option to disable text
+  ✔ Consider more sounds @done(19-06-23 20:50)
   ☐ Credits Screen
   ✔ Put text boxes in their own UI Panel (maybe) @done(19-04-18 09:03)
   ✔ Randomize Damage @done(19-03-19 10:11)
@@ -52,7 +53,7 @@ Room List:
   ✔ The Penultimate Room @done(19-05-09 09:06)
 
   Final:
-  ☐ Possibility 1 @started(19-05-09 09:09)
+  ✔ Possibility 1 @started(19-05-09 09:09) @done(19-06-23 20:50) @lasted(6w3d11h41m12s)
   ☐ Possibility 2
   ☐ Possibility 3
 

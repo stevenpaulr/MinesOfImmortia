@@ -29,9 +29,12 @@ public class controllerScript : MonoBehaviour {
 
 	//UI controller controls UI pieces that are not the main game text
 	public uiControllerScript theUIController;
+	public saveController theSaveController;
 
 	//reference to the hero
 	[SerializeField] private hero theHero;
+
+	public bool gameActive = false;
 
 
 	//Size of text (resizable later)
@@ -94,7 +97,7 @@ public class controllerScript : MonoBehaviour {
 
 
 		//Start the game in a co-routine
-		StartCoroutine(beginGame());
+		//StartCoroutine(beginGame()); //the menu will do this now
 	}
 
 	//This will begin playing the game
@@ -102,9 +105,6 @@ public class controllerScript : MonoBehaviour {
 
 		//First we wait a moment to make sure everything else is set up
 		yield return new WaitForSeconds (0.5f);
-
-		//Set up the stats screen
-		theUIController.refresh();
 
 
 		//Now create the first text box
@@ -792,7 +792,10 @@ public class controllerScript : MonoBehaviour {
 		//If we need to do some sort of extra action, go do it
 		checkAction();
 
-	
+
+		//save the game here
+		theSaveController.saveGame();
+
 		//create the next text box
 		createTextBox ();
 
